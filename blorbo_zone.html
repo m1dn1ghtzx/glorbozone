@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blorbo zone 🌐</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>welcome 2 blorbo zone</h1>
+  <p id="blorbText">blorbo</p>
+  <button onclick="blorbify()">blorbify me</button>
+
+  <script>
+    function blorbify() {
+      const text = document.getElementById('blorbText');
+      text.innerText = 'u blorbified now';
+      text.style.color = '#ffff00';
+      text.style.fontSize = '2rem';
+      text.style.transition = 'all 0.4s ease-in-out';
+    }
+  </script>
+</body>
+</html>
